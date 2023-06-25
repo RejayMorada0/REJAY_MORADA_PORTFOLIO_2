@@ -119,8 +119,8 @@ body{
 .containerhome {
     display: flex;
     border-radius: 20px;
-    width: 900px;
-    height: 450px;
+    width: 1000px;
+    height: 500px;
     background: linear-gradient(90deg, rgba(92, 225, 230, 1) 0%, rgba(203, 108, 230, 1) 100%);
 }
 
@@ -143,22 +143,23 @@ body{
 
 .label {
     display: grid;
-    text-align: right;
+    text-align: center;
     width: 90%;
     margin: 0;
 }
 
 .label>h1 {
-    font-size: 90px;
+    font-size: 30px;
     color: white;
     margin: 0;
+    font-weight: 300;
 }
 
 .label>h2 {
-    font-size: 30px;
+    font-size: 20px;
     color: #ffffff;
     margin: 0;
-    font-weight: 300;
+    font-weight: 100;
 }
 
 .label>p {
@@ -168,8 +169,8 @@ body{
 }
 
 .linya {
-    align-self: flex-end;
-    justify-self: end;
+    align-self: center;
+    justify-self: center;
     margin-top: 10px;
     margin-bottom: 10px;
     width: 300px;
@@ -195,6 +196,11 @@ body{
     font-size: 15px;
     border-radius: 5px;
     cursor: pointer;
+}
+
+button a {
+    text-decoration: none;
+    color: #CB6CE6;
 }
 
 .image1 {
