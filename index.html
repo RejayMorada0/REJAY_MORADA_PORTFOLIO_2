@@ -18,7 +18,14 @@
                 <li href="/Contact" class="links4">CONTACT</li>
                 <button class="button1" ><Image src="images/hamburger.png" alt="hamborgerButton" class="hamborgerButton" width="1000" height="100" /></button>
             </div>
-            
+        </div>
+    </div>
+    <div class="container2">
+        <div class="container2a">
+            <li href="/index.html" class="links5">HOME</li>
+            <li href="/About" class="links6">ABOUT</li>
+            <li href="/Services" class="links7">SERVICES</li>
+            <li href="/Contact" class="links8">CONTACT</li>
         </div>
     </div>
 
@@ -46,4 +53,16 @@
     </div>
     
 </body>
+<script>
+    const toggleButton = document.querySelector('.hamborgerButton');
+    const divider = document.querySelector('.container2');
+
+    toggleButton.addEventListener('click', () => {
+    if (divider.style.display === 'none') {
+        divider.style.display = 'flex';
+    } else {
+        divider.style.display = 'none';
+    }
+    });
+</script>
 </html>
