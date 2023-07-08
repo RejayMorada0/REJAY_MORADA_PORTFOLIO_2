@@ -104,7 +104,8 @@ body{
     align-items: center;
 }
 
-.containerhome {
+.containerhome1,
+.containerhome2 {
     display: flex;
     border-radius: 20px;
     width: 1000px;
@@ -195,17 +196,28 @@ button a {
     width: 400px;
     height: 350px;
 }
+.image2 {
+    width: 400px;
+    height: 400px;
+}
 
 @media only screen and (max-width: 1000px) {
     .body {
         height: fit-content;
     }
-    .containerhome {
-        margin: 30px 0 30px 0;
+    .containerhome1 {
+        margin: 20px 0 20px 0;
         width: 90%;
         height: 600px;
         display: grid;
         background: linear-gradient(0deg, rgba(92, 225, 230, 1) 0%, rgba(203, 108, 230, 1) 100%);
+    }
+    .containerhome2 {
+        margin: 20px 0 20px 0;
+        width: 90%;
+        height: 600px;
+        display: grid;
+        background: linear-gradient(0deg, rgba(203, 108, 230, 1) 0%, rgba(92, 225, 230, 1) 100%);
     }
     .contleft,
     .labelbox {
