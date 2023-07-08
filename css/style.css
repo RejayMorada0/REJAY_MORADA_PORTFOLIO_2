@@ -280,6 +280,10 @@ button a {
     .label>p {
         font-size: 10px;
     }
+    .linya {
+        width: 200px;
+    }
+    
 }
 
 @media only screen and (min-width: 1000px) {
