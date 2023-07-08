@@ -228,6 +228,10 @@ button a {
         width: 250px;
         height: 200px;
     }
+    .image2 {
+        width: 300px;
+        height: 300px;
+    }
     .label {
         text-align: center;
     }
