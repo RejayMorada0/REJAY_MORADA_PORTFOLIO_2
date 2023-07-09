@@ -22,6 +22,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    margin-right: 200PX;
 }
 
 .container1 {
@@ -122,6 +123,15 @@ body{
     align-items: center;
 }
 
+.contleft1 {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-top: 20px;
+}
+
 .labelbox {
     height: 100%;
     width: 50%;
@@ -131,6 +141,15 @@ body{
     justify-content: center;
 }
 
+.labelbox1 {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: start;
+    margin: 0;
+    justify-content: start;
+}
+
 .label {
     display: grid;
     text-align: center;
@@ -138,21 +157,36 @@ body{
     margin: 0;
 }
 
-.label>h1 {
+.label1 {
+    display: grid;
+    text-align: start;
+    width: 90%;
+    margin: 0;
+}
+
+
+.label>h1,
+.label1>h1 {
     font-size: 30px;
     color: white;
     margin: 0;
     font-weight: 300;
 }
 
-.label>h2 {
+.label>h2,
+.label1>h2 {
     font-size: 20px;
     color: #ffffff;
     margin: 0;
     font-weight: 100;
 }
 
-.label>p {
+.label1>h2 {
+    margin-top: 20px;
+}
+
+.label>p,
+.label1>p {
     font-size: 15px;
     color: white;
     margin-bottom: 10px;
@@ -161,6 +195,17 @@ body{
 .linya {
     align-self: center;
     justify-self: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 6px;
+    background-color: #CB6CE6;
+    border-radius: 10px;
+}
+
+.linya1 {
+    align-self: start;
+    justify-self: start;
     margin-top: 10px;
     margin-bottom: 10px;
     width: 300px;
