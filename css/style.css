@@ -251,6 +251,9 @@ button a {
     .body {
         height: fit-content;
     }
+    .menubars {
+        margin-right: 0;
+    }
     .containerhome1 {
         margin: 20px 0 20px 0;
         width: 90%;
