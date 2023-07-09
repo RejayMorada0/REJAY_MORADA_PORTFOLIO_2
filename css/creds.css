@@ -106,8 +106,7 @@ body{
     align-items: center;
 }
 
-.containerhome1,
-.containerhome2 {
+.containerhome {
     display: flex;
     border-radius: 20px;
     width: 1000px;
@@ -123,15 +122,6 @@ body{
     align-items: center;
 }
 
-.contleft1 {
-    height: 100%;
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    margin-top: 20px;
-}
-
 .labelbox {
     height: 100%;
     width: 50%;
@@ -141,15 +131,6 @@ body{
     justify-content: center;
 }
 
-.labelbox1 {
-    height: 100%;
-    width: 50%;
-    display: flex;
-    align-items: start;
-    margin: 0;
-    justify-content: start;
-}
-
 .label {
     display: grid;
     text-align: center;
@@ -157,36 +138,22 @@ body{
     margin: 0;
 }
 
-.label1 {
-    display: grid;
-    text-align: start;
-    width: 90%;
-    margin: 0;
-}
 
-
-.label>h1,
-.label1>h1 {
+.label>h1 {
     font-size: 30px;
     color: white;
     margin: 0;
     font-weight: 300;
 }
 
-.label>h2,
-.label1>h2 {
+.label>h2 {
     font-size: 20px;
     color: #ffffff;
     margin: 0;
     font-weight: 100;
 }
 
-.label1>h2 {
-    margin-top: 20px;
-}
-
-.label>p,
-.label1>p {
+.label>p{
     font-size: 15px;
     color: white;
     margin-bottom: 10px;
@@ -195,17 +162,6 @@ body{
 .linya {
     align-self: center;
     justify-self: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 300px;
-    height: 6px;
-    background-color: #CB6CE6;
-    border-radius: 10px;
-}
-
-.linya1 {
-    align-self: start;
-    justify-self: start;
     margin-top: 10px;
     margin-bottom: 10px;
     width: 300px;
@@ -254,14 +210,7 @@ button a {
     .menubars {
         margin-right: 0;
     }
-    .containerhome1 {
-        margin: 20px 0 20px 0;
-        width: 90%;
-        height: 600px;
-        display: grid;
-        background: linear-gradient(0deg, rgba(92, 225, 230, 1) 0%, rgba(203, 108, 230, 1) 100%);
-    }
-    .containerhome2 {
+    .containerhome {
         margin: 20px 0 20px 0;
         width: 90%;
         height: 600px;
@@ -269,15 +218,9 @@ button a {
         background: linear-gradient(0deg, rgba(203, 108, 230, 1) 0%, rgba(92, 225, 230, 1) 100%);
     }
     .contleft,
-    .contleft1,
-    .labelbox,
-    .labelbox1 {
+    .labelbox {
         width: 100%;
         height: 100%;
-    }
-    .contleft1 {
-        justify-content: center;
-        align-items: center;
     }
     .label1 {
         text-align: center;
@@ -293,8 +236,7 @@ button a {
     .label {
         text-align: center;
     }
-    .linya,
-    .linya1 {
+    .linya {
         align-self: center;
         justify-self: center;
     }
@@ -347,18 +289,15 @@ button a {
 
 
 @media only screen and (max-width: 800px) {
-    .label>h1,
-    .label1>h1 {
+    .label>h1 {
         font-size: 25px;
         margin: 0;
     }
-    .label>h2,
-    .label1>h2  {
+    .label>h2  {
         font-size: 15px;
         margin: 0;
     }
-    .label>p,
-    .label1>p {
+    .label>p{
         font-size: 10px;
         margin: 0;
     }

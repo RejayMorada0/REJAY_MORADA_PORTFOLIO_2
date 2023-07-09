@@ -215,7 +215,7 @@ button a {
     .menubars {
         margin-right: 0;
     }
-    .containerhome1 {
+    .containerhome {
         margin: 20px 0 20px 0;
         width: 90%;
         height: 600px;
@@ -302,7 +302,8 @@ button a {
         font-size: 15px;
         margin: 0;
     }
-    .label>p{
+    .label>p,
+    .label1>p {
         font-size: 10px;
         margin: 0;
     }
